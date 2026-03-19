@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Демо автотесты мобильного приложения Азиатско-Тихоокеанский банк">
+    <test name="Страница Авторизация">
+        <classes>
+            <class name="tests.DemoTests">
+                <methods>
+<!--                    <include name="securityPageTest"/>-->
+<!--                    <include name="loginPageTest"/>-->
+<!--                    <include name="entranceButtonTest"/>-->
+                    <include name="officeAndAtmsPageTest"/>
+<!--                    <include name="currenciesPageTest"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
